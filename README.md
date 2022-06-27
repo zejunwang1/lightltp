@@ -1,4 +1,4 @@
-# lightltp: 基于 onnxruntime 推理工具的中文 ltp 词法分析
+# lightltp: 基于 onnxruntime 推理引擎的中文 ltp 词法分析
 
 ltp (https://github.com/HIT-SCIR/ltp) 是哈工大社会计算和信息检索研究中心（HIT-SCIR）开源的中文自然语言处理工具集，用户可以使用 ltp 对中文文本进行分词、词性标注、命名实体识别、语义角色标注、依存句法分析、语义依存分析等等工作。
 
