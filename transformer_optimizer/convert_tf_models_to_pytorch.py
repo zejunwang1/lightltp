@@ -125,7 +125,7 @@ def download_tf_checkpoint(model_name, tf_models_dir="tf_models"):
                     if not is_within_directory(path, member_path):
                         raise Exception("Attempted Path Traversal in Tar File")
             
-                tar.extractall(path, members, numeric_owner) 
+                tar.extractall(path, members, numeric_owner=numeric_owner) 
                 
             
             safe_extract(tar_ref, ckpt_dir)
